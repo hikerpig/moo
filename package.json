@@ -1,6 +1,6 @@
 {
-  "name": "moo",
-  "version": "0.5.1",
+  "name": "@hikerpig/moo",
+  "version": "0.5.2-beta.1",
   "description": "Optimised tokenizer/lexer generator! 🐄 Much performance. Moo!",
   "main": "moo.js",
   "files": [
@@ -16,6 +16,9 @@
     "test": "jest .",
     "benchmark": "benchr test/benchmark.js",
     "moo": "echo 'Mooooo!'"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "devDependencies": {
     "benchr": "^3.2.0",
