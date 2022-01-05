@@ -391,6 +391,8 @@
     this.queuedThrow = info ? info.queuedThrow : null
     this.setState(info ? info.state : this.startState)
     this.stack = info && info.stack ? info.stack.slice() : []
+
+    this.queuedGroup = null
     return this
   }
 
